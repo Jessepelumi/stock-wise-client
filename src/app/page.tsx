@@ -37,12 +37,7 @@ export default function Home() {
         </ol>
 
         <div className={styles.ctas} onClick={handleClick}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a className={styles.primary} href="#" rel="noopener noreferrer">
             <Image
               className={styles.logo}
               src="https://nextjs.org/icons/vercel.svg"
@@ -53,7 +48,7 @@ export default function Home() {
             Fetch Leads
           </a>
         </div>
-        <div className={styles.ctas}>{data && JSON.stringify(data)}</div>
+        <div className={styles.primary}>{data && JSON.stringify(data)}</div>
       </main>
     </div>
   );
