@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "api/leads",
-      "destination": "https://emoucpqer8.execute-api.us-east-2.amazonaws.com/leads"
+      "destination": "https://emoucpqer8.execute-api.us-east-2.amazonaws.com/api/leads"
     }
   ]
 }
